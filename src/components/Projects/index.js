@@ -8,7 +8,7 @@ import { projects } from '../../data/constants'
 const Projects = ({openModal,setOpenModal}) => {
   const [toggle, setToggle] = useState('all');
   return (
-    <Container id="projects">
+    <Container id="Projects">
       <Wrapper>
         <Title>Projects</Title>
         <Desc>

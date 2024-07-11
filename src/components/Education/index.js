@@ -79,7 +79,7 @@ const TimelineSection = styled.div`
 
 const index = () => {
     return (
-        <Container id="education">
+        <Container id="Education">
             <Wrapper>
                 <Title>Education</Title>
                 <Desc>
