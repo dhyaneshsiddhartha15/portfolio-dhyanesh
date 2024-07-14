@@ -6,7 +6,7 @@ export const Bio = {
 "Programmer",
   ],
   description:
-    "I am a dedicated and adaptable professional with a strong enthusiasm for continuous learning and personal growth. I thrive in dynamic environments and am committed to delivering exceptional results. With a proactive mindset and a collaborative spirit, I am eager to contribute effectively and drive success in every project I undertake",
+    "I am a dedicated and highly skilled Full Stack Developer specializing in the MERN stack, with extensive experience in designing and developing robust web applications. My journey in the tech industry has equipped me with a deep understanding of both front-end and back-end development, making me adept at creating seamless user experiences and efficient server-side functionalities. With over 1 year of experience, I have successfully built and deployed multiple projects, demonstrating my capability to deliver high-quality software solutions.",
   github: "https://github.com/dhyaneshsiddhartha15",
   resume:
     "https://drive.google.com/file/d/1e0MZLMwWLqkEm50ufJfGSw94RKKe-w3F/view?usp=drive_link",
@@ -191,8 +191,9 @@ export const experiences = [
     id: 0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzwQY27prdMw5reopOQw_oYM5jcaz-3da0Nw&s",
     role: "Full Stack Web Developer Intern",
+    Location: "Haridwar, Uttarakhand (Hybrid )",
     company: "DMarketingGuru: Digital Marketing Agency",
-    date: "Jan 2024 - March 2024",
+    date: "July 2023 - September 2023",
     desc: "Developed and maintained web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).Created and optimized RESTful APIs to handle data interactions between the front-end and back-end systems.Collaborated with cross-functional teams to design, develop, and deploy new features.Implemented responsive UI components using React.js and Tailwind CSS, ensuring a seamless user experience across different devices.Enhanced understanding of RESTful API design and development.",
     skills: [
       "MongoDB",
@@ -203,6 +204,29 @@ export const experiences = [
       "JavaScript",
       "TypeScript",
       "Node Js",
+  
+    ],
+    
+  },
+  {
+    id: 0,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzwQY27prdMw5reopOQw_oYM5jcaz-3da0Nw&s",
+    role: "Full Stack Web Developer",
+    company: "DMarketingGuru: Digital Marketing Agency",
+    Location: "Haridwar, Uttarakhand (Onsite)",
+    date: "October 2023 - April 2024",
+    desc: "Payment Gateway: Designed and implemented a secure payment gateway, ensuring seamless transactions and enhanced security.Inventory System: Developed a real-time inventory management system with automated reorder processes and detailed reporting.Project Management: Collaborated with teams to define requirements, establish timelines, and deliver solutions on time.Technologies: Utilized MongoDB, Express.js, React.js, and Node.js to build scalable web applications and implement RESTful APIs.Continuous Improvement: Optimized systems based on user feedback and integrated new features for better performance and usability.APIs.",
+    skills: [
+      "MongoDB",
+      "Express JS",
+      "Tailwind CSS",
+      "React",
+      "Redux",
+      "JavaScript",
+      "TypeScript",
+      "Node Js",
+      "Project Management",
+      "Deployment"
   
     ],
     
@@ -275,7 +299,7 @@ export const projects = [
       "Node Js",
       "Express Js",
       "Redux",
-      "Razorpay",
+      "Stripe",
       "Nodemailer"
     ],
     category: "web app",
@@ -301,9 +325,9 @@ export const projects = [
     title: "AI Content Generation",
     date: "May 2024 - Present",
     description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
+      "Developed an AI-powered content generation platform designed to assist users in creating high-quality, engaging content. The platform leverages advanced AI algorithms and a robust backend to streamline the content creation process.",
     image:
-      "",
+      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fai-content-generation-tools-mohammad-khazab&psig=AOvVaw1v7vOSD8dd12wqFzKzAhtD&ust=1721054525953000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKDbyvDhpocDFQAAAAAdAAAAABAR",
     tags: [
       "React Js",
       "MongoDb",
@@ -312,7 +336,7 @@ export const projects = [
       "Redux",
       "NodeMailer",
       "Gemini AI",
-      "Razorpay"
+      "Stripe",
     ],
     category: "web app",
     github: "",
