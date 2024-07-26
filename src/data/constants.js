@@ -9,7 +9,7 @@ export const Bio = {
     "I am a dedicated and highly skilled Full Stack Developer specializing in the MERN stack, with extensive experience in designing and developing robust web applications. My journey in the tech industry has equipped me with a deep understanding of both front-end and back-end development, making me adept at creating seamless user experiences and efficient server-side functionalities. With over 1 year of experience, I have successfully built and deployed multiple projects, demonstrating my capability to deliver high-quality software solutions.",
   github: "https://github.com/dhyaneshsiddhartha15",
   resume:
-    "https://drive.google.com/file/d/1e0MZLMwWLqkEm50ufJfGSw94RKKe-w3F/view?usp=drive_link",
+    "https://drive.google.com/file/d/1ypzfFTj_7IKK6odj8jyD7HMl_-vm8S57/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/dhyanesh-siddhartha-a95baa206/",
   twitter: "https://x.com/dhyanesh_sidd15",
   insta: "",
@@ -187,27 +187,7 @@ export const skills = [
 ];
 
 export const experiences = [
-  {
-    id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzwQY27prdMw5reopOQw_oYM5jcaz-3da0Nw&s",
-    role: "Full Stack Web Developer Intern",
-    Location: "Haridwar, Uttarakhand (Hybrid )",
-    company: "DMarketingGuru: Digital Marketing Agency",
-    date: "July 2023 - September 2023",
-    desc: "Developed and maintained web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).Created and optimized RESTful APIs to handle data interactions between the front-end and back-end systems.Collaborated with cross-functional teams to design, develop, and deploy new features.Implemented responsive UI components using React.js and Tailwind CSS, ensuring a seamless user experience across different devices.Enhanced understanding of RESTful API design and development.",
-    skills: [
-      "MongoDB",
-      "Express JS",
-      "Tailwind CSS",
-      "React",
-      "Redux",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
   
-    ],
-    
-  },
   {
     id: 0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzwQY27prdMw5reopOQw_oYM5jcaz-3da0Nw&s",
@@ -215,7 +195,7 @@ export const experiences = [
     company: "DMarketingGuru: Digital Marketing Agency",
     Location: "Haridwar, Uttarakhand (Onsite)",
     date: "October 2023 - April 2024",
-    desc: "Payment Gateway: Designed and implemented a secure payment gateway, ensuring seamless transactions and enhanced security.Inventory System: Developed a real-time inventory management system with automated reorder processes and detailed reporting.Project Management: Collaborated with teams to define requirements, establish timelines, and deliver solutions on time.Technologies: Utilized MongoDB, Express.js, React.js, and Node.js to build scalable web applications and implement RESTful APIs.Continuous Improvement: Optimized systems based on user feedback and integrated new features for better performance and usability.APIs.",
+    desc: "Payment Gateway: Designed and implemented a secure payment gateway, ensuring seamless transactions and enhanced security.Inventory System: Developed a real-time inventory management system with automated reorder processes and detailed reporting.Project Management: Collaborated with teams to define requirements, establish timelines, and deliver solutions on time.Technologies: Utilized MongoDB, Express.js, React.js, and Node.js to build scalable web applications and implement RESTful APIs.Continuous Improvement: Optimized systems based on user feedback and integrated new features for better performance and usability.APIs.Developed an inventory management system and charts for tracking data.Implemented Node.js cron logic to handle expiring trial subscriptions and automate related processes.",
     skills: [
       "MongoDB",
       "Express JS",
@@ -231,14 +211,14 @@ export const experiences = [
     ],
     
   },
-  
   {
     id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributing to different open-source projects and learn from industry experts",
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzwQY27prdMw5reopOQw_oYM5jcaz-3da0Nw&s",
+    role: "Full Stack Web Developer Intern",
+    Location: "Haridwar, Uttarakhand (Hybrid )",
+    company: "DMarketingGuru: Digital Marketing Agency",
+    date: "July 2023 - September 2023",
+    desc: "Developed and maintained web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js).Created and optimized RESTful APIs to handle data interactions between the front-end and back-end systems.Collaborated with cross-functional teams to design, develop, and deploy new features.Implemented responsive UI components using React.js and Tailwind CSS, ensuring a seamless user experience across different devices.Enhanced understanding of RESTful API design and development.",
     skills: [
       "MongoDB",
       "Express JS",
@@ -248,10 +228,33 @@ export const experiences = [
       "JavaScript",
       "TypeScript",
       "Node Js",
-      "Angular "
+      "Angular",
+      "Project Management"
   
     ],
+    
   },
+  
+  // {
+  //   id: 1,
+  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
+  //   role: "Open Source Contributor ",
+  //   company: "GirlScript Summer of Code",
+  //   date: "May 2023 - Present",
+  //   desc: "Contributing to different open-source projects and learn from industry experts",
+  //   skills: [
+  //     "MongoDB",
+  //     "Express JS",
+  //     "Tailwind CSS",
+  //     "React",
+  //     "Redux",
+  //     "JavaScript",
+  //     "TypeScript",
+  //     "Node Js",
+  //     "Angular "
+  
+  //   ],
+  // },
 
 ];
 
@@ -288,9 +291,9 @@ export const projects = [
     title: "EDUVISTA",
     date: "Oct 2023 - Dec 2023 ",
     description:
-      "Eduvista is an innovative EdTech platform where anyone can be both an instructor and a student. Instructors can upload courses, and students can easily purchase and view video content, making learning accessible to all.",
+      "Eduvista is an innovative EdTech platform where anyone can be both an instructor and a student. Instructors can upload courses, and students can easily purchase and view video content, making learning accessible to all.Eduvista provides a robust and intuitive system for course creation and management. Instructors can easily upload and organize their courses, set pricing, and monitor their sales.The platform’s user-friendly design allows students to easily browse, purchase, and access video content, making learning both accessible and engaging.",
     image:
-      "https://media.licdn.com/dms/image/D562DAQFyPRtuwZQevA/profile-treasury-image-shrink_800_800/0/1712256037343?e=1721196000&v=beta&t=QBbqr0XyO7OLw9sJtmlqsSxzkZ8nm63ZM6pBtzGANBA",
+      "https://res.cloudinary.com/dsipkr1bt/image/upload/v1721973278/EDUVSTA_hogwui.png",
     tags: [
   "Vercel",
   "Render",
@@ -300,7 +303,8 @@ export const projects = [
       "Express Js",
       "Redux",
       "Stripe",
-      "Nodemailer"
+      "Nodemailer",
+      "Razorpay"
     ],
     category: "web app",
     github: "https://github.com/dhyaneshsiddhartha15/edtecheduvista",
@@ -311,10 +315,10 @@ export const projects = [
     title: "BlogVerse",
     date: "Apr 2023 - May 2023",
     description:
-      "Developed a full-stack web application - BlogVerse , it is more than just a blogging platform; it's a community where creativity and interaction thrive. Join us in revolutionizing the blogging experience with cutting-edge technology!.",
+      "Developed a full-stack web application - BlogVerse , BlogVerse is a cutting-edge full-stack web application designed to revolutionize the blogging experience by transforming it into a vibrant community platform where creativity and interaction flourish. Built with the MERN stack (MongoDB, Express.js, React.js, and Node.js), BlogVerse offers more than just a space for blogging—it’s a dynamic environment where writers, readers, and creators can connect, share, and inspire one another. The platform features advanced blogging tools, interactive community elements, and personalized content recommendations. Users benefit from robust profiles, insightful analytics, and a seamless follow and follow-back system to build meaningful connections. Additionally, BlogVerse includes a blocking and unblocking feature to maintain a positive user experience. ",
     image:
-      "https://media.licdn.com/dms/image/D562DAQH-g5eAV-PC1g/profile-treasury-image-shrink_800_800/0/1718645255503?e=1721246400&v=beta&t=lg-gfhmuWWcZVooQKdUN4lb0GQD3zibOav2P276cXfU",
-    tags: ["React Js","Razorpay","Nodemailer", "MongoDb", "Node Js", "Express Js", "Redux","Stripe","Render","Vercel","Tanstack Query"],
+      "https://res.cloudinary.com/dsipkr1bt/image/upload/v1721973926/blog_verse_fa16dk.png",
+    tags: ["React Js","Passport","Nodemailer", "MongoDb", "Node Js", "Express Js", "Redux","Stripe","Render","Vercel","Tanstack Query"],
     category: "web app",
     github: "https://github.com/dhyaneshsiddhartha15",
     webapp: "https://mernblogweb-three.vercel.app/",
@@ -325,9 +329,9 @@ export const projects = [
     title: "AI Content Generation",
     date: "May 2024 - Present",
     description:
-      "Developed an AI-powered content generation platform designed to assist users in creating high-quality, engaging content. The platform leverages advanced AI algorithms and a robust backend to streamline the content creation process.",
+      "Developed an AI-powered content generation platform designed to assist users in creating high-quality, engaging content with ease. This innovative platform leverages advanced AI algorithms and a robust backend infrastructure to streamline the content creation process. By analyzing user input and understanding context, the platform generates well-crafted and relevant content tailored to specific needs and preferences. Its intuitive interface and sophisticated technology ensure that users can produce professional-grade content efficiently, transforming the way individuals and businesses approach content creation and enhancing their ability to engage audiences effectively.",
     image:
-      "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.linkedin.com%2Fpulse%2Fai-content-generation-tools-mohammad-khazab&psig=AOvVaw1v7vOSD8dd12wqFzKzAhtD&ust=1721054525953000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCKDbyvDhpocDFQAAAAAdAAAAABAR",
+      "https://res.cloudinary.com/dsipkr1bt/image/upload/v1721973279/AI_CONTENT_GE_dkmc2x.png",
     tags: [
       "React Js",
       "MongoDb",
@@ -336,11 +340,12 @@ export const projects = [
       "Redux",
       "NodeMailer",
       "Gemini AI",
+      "Google Generative AI",
       "Stripe",
     ],
     category: "web app",
-    github: "",
-    webapp: "",
+    github: "https://github.com/dhyaneshsiddhartha15/ai-conent-generator",
+    webapp: "https://contentgentai.vercel.app/",
   },
   {
     id: 2,
@@ -349,7 +354,7 @@ export const projects = [
     description:
       "I designed and developed the Shivshakti website using ReactJS, Tailwind CSS and TypeScript. The website offers a seamless booking experience for guests, providing them with the best rates and exclusive offers for their stay. With a user-friendly interface, the website allows guests to easily search for accommodations, check availability, and book directly. The website also highlights the unique features of each hotel, showcasing their amenities and offering a glimpse into the experience they provide. Through the use of ReactJs , Tailwind CSS and TypeScript, I ensured that the website is visually appealing, responsive, and provides a smooth user experience from start to finish(Associated with DMarketingGuru: Digital Marketing Agency)",
     image:
-      "https://media.licdn.com/dms/image/D562DAQFgnf8qKka3IQ/profile-treasury-image-shrink_800_800/0/1718996350289?e=1721246400&v=beta&t=Xy10p1xqhXcUrp7oFUzxporyJ3XEZKF2PdxLZ10WdzM",
+      "https://res.cloudinary.com/dsipkr1bt/image/upload/v1721973279/SHIVSHAKTI_avdgap.png",
     tags: [
       "React Js",
       "Typescript",
@@ -367,12 +372,13 @@ export const projects = [
     description:
       "I designed and developed the JapanCareers website using ReactJS and Tailwind CSS. The website serves as a comprehensive job portal, connecting job seekers with opportunities in Japan. It features a clean, intuitive interface that allows users to easily search for jobs, filter by various criteria, and apply directly through the site. The website also includes detailed company profiles, providing insights into potential employers. By leveraging ReactJS and Tailwind CSS, I ensured that the site is highly responsive, visually appealing, and offers a seamless user experience for both job seekers and employers. (Associated with DMarketingGuru: Digital Marketing Agency)",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOWThd5IKTKQxr-E1MxM5Gzq8XiRFMIkQMuJ0eAhMZXXksP5CEbsuW_jgm3ju2vwXR1W8&usqp=CAU",
+      "https://res.cloudinary.com/dsipkr1bt/image/upload/v1721973927/japan_c_zjmk9f.png",
     tags: [
       "React Js",
       "Typescript",
 "Framer Motion",
 "Tailwind CSS",
+
     ],
     category: "web app",
     github: "https://github.com/dhyaneshsiddhartha15/japanjob",
