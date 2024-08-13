@@ -36,6 +36,11 @@ export const skills = [
           "data:image/jpeg;base64,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",
       },
       {
+        name: "Next JS",
+        image:
+          "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj13DpXfc1_RayzN0ecY0-p_ws7TK3sxpO6w&s",
+      },
+      {
         name: "HTML",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
@@ -73,6 +78,10 @@ export const skills = [
       {
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
+      },
+      {
+        name: "Graph QL",
+        image: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKnm3IBu-tk2J1Dr9UCcSxVt0bx23YyfbX_g&s",
       },
       {
         name: "REST APIS",
@@ -179,6 +188,11 @@ export const skills = [
         image:
           "https://cdn.worldvectorlogo.com/logos/postman.svg",
       },
+      {
+        name: "Apollo",
+        image:
+          "https://yt3.googleusercontent.com/qb18mOYkphbCOPiRPrvuH2Ki2KdVgVqpqiINTmLLl7UlHsgGv9--N-SvYSed_q067Pza6Z61zQ=s900-c-k-c0x00ffffff-no-rj",
+      },
       
 
   
@@ -187,9 +201,35 @@ export const skills = [
 ];
 
 export const experiences = [
-  
   {
+    
     id: 0,
+    img: "https://media.licdn.com/dms/image/v2/D4D0BAQHi1d0I38i9dw/company-logo_200_200/company-logo_200_200/0/1698064757705/algor_mind_logo?e=1731542400&v=beta&t=zWPGCutduMssMvnBt25gNnzON0MUx0GnV_9G9vNE9-I",
+    role: "Full Stack Web Developer",
+    company: "Ablelyf",
+    Location: "Doha, Qatar (Remote)",
+    date: "July 2024 -  Present",
+    desc: "As a Full Stack Developer at Ablelyf, I specialize in creating dynamic web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). My role involves designing intuitive user interfaces with TypeScript and Tailwind CSS, and developing efficient APIs with GraphQL to ensure seamless data interactions. I also build frontend components using Angular and manage databases with MongoDB. Working remotely, I effectively collaborate with global teams, optimize application performance, and ensure high-quality deliverables.",
+    skills: [
+      "MongoDB",
+      "Express JS",
+      "Tailwind CSS",
+      "React",
+      "Redux",
+      "JavaScript",
+      "TypeScript",
+      "Node Js",
+      "Project Management",
+      "Deployment",
+      "Angular",
+      "GraphQL"
+  
+    ],
+    
+  },
+  {
+    
+    id: 1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzwQY27prdMw5reopOQw_oYM5jcaz-3da0Nw&s",
     role: "Full Stack Web Developer",
     company: "DMarketingGuru: Digital Marketing Agency",
@@ -212,7 +252,7 @@ export const experiences = [
     
   },
   {
-    id: 1,
+    id: 2,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzwQY27prdMw5reopOQw_oYM5jcaz-3da0Nw&s",
     role: "Full Stack Web Developer Intern",
     Location: "Haridwar, Uttarakhand (Hybrid )",
@@ -262,10 +302,10 @@ export const education = [
   {
     id: 0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS2ZA1quoyBYWCHPGAHpHZuCGwK4y6ZIdRy3A&s",
-    school: "HEC Group of Institutions,Haridwar",
+    school: "HEC Group of Institutions",
     date: "Oct 2021 - Sep 2024",
     grade: "8.1 CGPA",
-    desc: "I am currently pursuing a Bachelor of Computer Applications at HEC Group of Institutions.",
+    desc: "I have graduated with a Bachelor of Computer Applications from HEC Group of Institutions.",
     degree: "Bachelor's of Computer Applications",
   },
   {

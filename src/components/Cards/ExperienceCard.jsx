@@ -143,6 +143,14 @@ const Skill = styled.div`
 `
 
 
+const Location = styled.div`
+    font-size: 15px;
+    font-weight: 400;
+    color: ${({ theme }) => theme.text_primary + 99};
+    @media only screen and (max-width: 768px){
+        font-size: 12px;
+    }
+`
 
 const ExperienceCard = ({ experience }) => {
     return (
@@ -152,6 +160,7 @@ const ExperienceCard = ({ experience }) => {
                 <Body>
                     <Role>{experience.role}</Role>
                     <Company>{experience.company}</Company>
+                    <Location>{experience.Location}</Location>
                     <Date>{experience.date}</Date>
                 </Body>
             </Top>
