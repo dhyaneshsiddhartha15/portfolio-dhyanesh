@@ -1,3 +1,7 @@
+import doha from '../assets/doha.png';
+import carchaser from "../assets/carchaser.png"
+import ShowPhaze from "../assets/ShowPhaze.png"
+
 export const Bio = {
   name: "Dhyanesh Siddhartha",
   roles: [
@@ -202,13 +206,37 @@ export const skills = [
 
 export const experiences = [
   {
-    
     id: 0,
+    img: "https://media.licdn.com/dms/image/v2/D4D0BAQHi1d0I38i9dw/company-logo_200_200/company-logo_200_200/0/1698064757705/algor_mind_logo?e=1731542400&v=beta&t=zWPGCutduMssMvnBt25gNnzON0MUx0GnV_9G9vNE9-I",
+    role: "Software Engineer",
+    company: "Coregde",
+    Location: "Noida",
+    date: "Present",
+    // desc: "As a Full Stack Developer at Ablelyf, I specialize in creating dynamic web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). My role involves designing intuitive user interfaces with TypeScript and Tailwind CSS, and developing efficient APIs with GraphQL to ensure seamless data interactions. I also build frontend components using Angular and manage databases with MongoDB. Working remotely, I effectively collaborate with global teams, optimize application performance, and ensure high-quality deliverables.",
+    // skills: [
+    //   "MongoDB",
+    //   "Express JS",
+    //   "Tailwind CSS",
+    //   "React",
+    //   "Redux",
+    //   "JavaScript",
+    //   "TypeScript",
+    //   "Node Js",
+    //   "Project Management",
+    //   "Deployment",
+    //   "Angular",
+    //   "GraphQL"
+  
+    // ],
+    
+  },
+  {
+    id: 1,
     img: "https://media.licdn.com/dms/image/v2/D4D0BAQHi1d0I38i9dw/company-logo_200_200/company-logo_200_200/0/1698064757705/algor_mind_logo?e=1731542400&v=beta&t=zWPGCutduMssMvnBt25gNnzON0MUx0GnV_9G9vNE9-I",
     role: "Full Stack Web Developer",
     company: "Ablelyf",
     Location: "Doha, Qatar (Remote)",
-    date: "July 2024 -  Present",
+    date: "July 2024 -  April 2025",
     desc: "As a Full Stack Developer at Ablelyf, I specialize in creating dynamic web applications using the MERN stack (MongoDB, Express.js, React.js, Node.js). My role involves designing intuitive user interfaces with TypeScript and Tailwind CSS, and developing efficient APIs with GraphQL to ensure seamless data interactions. I also build frontend components using Angular and manage databases with MongoDB. Working remotely, I effectively collaborate with global teams, optimize application performance, and ensure high-quality deliverables.",
     skills: [
       "MongoDB",
@@ -229,7 +257,7 @@ export const experiences = [
   },
   {
     
-    id: 1,
+    id: 2,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzwQY27prdMw5reopOQw_oYM5jcaz-3da0Nw&s",
     role: "Full Stack Web Developer",
     company: "DMarketingGuru: Digital Marketing Agency",
@@ -252,7 +280,7 @@ export const experiences = [
     
   },
   {
-    id: 2,
+    id: 3,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzwQY27prdMw5reopOQw_oYM5jcaz-3da0Nw&s",
     role: "Full Stack Web Developer Intern",
     Location: "Haridwar, Uttarakhand (Hybrid )",
@@ -270,9 +298,7 @@ export const experiences = [
       "Node Js",
       "Angular",
       "Project Management"
-  
     ],
-    
   },
   
   // {
@@ -351,20 +377,6 @@ export const projects = [
     webapp: "https://edtecheduvista.vercel.app/",
   },
   {
-    id: 0,
-    title: "BlogVerse",
-    date: "Apr 2023 - May 2023",
-    description:
-      "Developed a full-stack web application - BlogVerse , BlogVerse is a cutting-edge full-stack web application designed to revolutionize the blogging experience by transforming it into a vibrant community platform where creativity and interaction flourish. Built with the MERN stack (MongoDB, Express.js, React.js, and Node.js), BlogVerse offers more than just a space for blogging—it’s a dynamic environment where writers, readers, and creators can connect, share, and inspire one another. The platform features advanced blogging tools, interactive community elements, and personalized content recommendations. Users benefit from robust profiles, insightful analytics, and a seamless follow and follow-back system to build meaningful connections. Additionally, BlogVerse includes a blocking and unblocking feature to maintain a positive user experience. ",
-    image:
-      "https://res.cloudinary.com/dsipkr1bt/image/upload/v1721973926/blog_verse_fa16dk.png",
-    tags: ["React Js","Passport","Nodemailer", "MongoDb", "Node Js", "Express Js", "Redux","Stripe","Render","Vercel","Tanstack Query"],
-    category: "web app",
-    github: "https://github.com/dhyaneshsiddhartha15",
-    webapp: "https://mernblogweb-three.vercel.app/",
-  
-  },
-  {
     id: 1,
     title: "AI Content Generation",
     date: "May 2024 - Present",
@@ -386,6 +398,60 @@ export const projects = [
     category: "web app",
     github: "https://github.com/dhyaneshsiddhartha15/ai-conent-generator",
     webapp: "https://contentgentai.vercel.app/",
+  },
+  {
+    id: 4,
+    title: "Doha Bus",
+    date: "July 2024 - MAy  2025",
+  "description": "I’m excited to share my involvement in the digital transformation of the Doha Bus system, where I played a pivotal role in upgrading the legacy PHP system to a scalable MERN stack solution. This transformation significantly improved system performance, load times, and scalability, enabling seamless booking experiences for users worldwide.\n\nProject Highlights:\n Global User Accessibility: Enhanced the platform to efficiently manage bookings from users around the world.\n Secure Payment Gateway: Integrated a robust and secure payment gateway, ensuring smooth transactions for users.\n Performance Optimization: Focused on reducing load times and improving system efficiency to handle large-scale traffic seamlessly.\n Admin Management System: Developed a comprehensive admin panel for booking management, ticket cancellations, real-time ticket tracking, and user support, empowering administrators to efficiently manage the entire system.\n\nAchievements:\nMERN Stack Upgrade: Transitioned from legacy PHP to a modern MERN stack (MongoDB, Express.js, React.js, Node.js) for better scalability and performance.\n\nUser-Friendly Admin Panel: Created an intuitive and powerful admin dashboard, simplifying operations like ticket cancellations, booking tracking, and reporting.\n\nThis project has been an exciting journey of building scalable, high-performance solutions that improve the overall user and admin experience. It’s been incredible seeing this digital solution go live and supporting users globally.",
+    image: doha,
+    tags: [
+      "React Js",
+      "TypeScript",
+      "Node Js",
+      "Express Js",
+      "Project Management"
+    ],
+    category: "web app",
+    // github: "https://github.com/dhyaneshsiddhartha15/ai-conent-generator",
+    webapp: "https://www.dohabus.com/",
+  },
+  {
+    id: 5,
+    title: "Carchaser",
+    date: "Jun 2025",
+    description:
+      "I developed the CarChaser platform, a car auction and rental website, using React.js, Material-UI, Node.js, and MongoDB. The platform includes dedicated pages for Upcoming Cars, Live Auction Cars, Sold Cars, and Unsold Cars, along with an interactive bidding system to enhance user engagement. I integrated REST APIs to handle car listings, auction updates, and user interactions, ensuring smooth data flow across the platform. To make the site accessible for a wider audience, I implemented multi-language support with English–French translation. I also focused on building fully responsive and mobile-friendly interfaces, ensuring a seamless user experience across devices.",
+    image:
+      carchaser,
+    tags: [
+      "React Js",
+      "MUI",
+      "Node JS",
+      "MongoDB"
+    ],
+    category: "web app",
+    // github: "https://shivshakti.vercel.app/",
+    webapp: "https://carchaser.ca/",
+  },
+  {
+    id: 8,
+    title: "ShowPhaze – Event Production & Crew Management Platform",
+    date: "Jan 2054",
+    description:
+      "I developed and contributed to the ShowPhaze platform, a full-stack event production and crew management system designed to simplify crewing, logistics, and live event coordination. The platform allows event organizers to create and manage events, assign crew, track resources, and share documents such as schedules and call sheets in real-time. Contractors can browse and accept gigs, manage availability, and communicate directly with organizers through integrated chat. The system also supports compliance and safety policies, ensuring a secure and professional working environment. By building responsive interfaces and scalable backend services, I ensured that the platform delivered a seamless experience for both event organizers and crew members.",
+    image:
+      ShowPhaze,
+    tags: [
+      "React Js",
+      "MongoDB",
+      "REST APIs",
+      "Express.js",
+      "WebSockets",
+    ],
+    category: "web app",
+    // github: "https://shivshakti.vercel.app/",
+    webapp: "https://showphaze.com/",
   },
   {
     id: 2,
@@ -424,32 +490,32 @@ export const projects = [
     github: "https://github.com/dhyaneshsiddhartha15/japanjob",
     webapp: "https://japanjob.vercel.app/",
   },
-  {
-    id: 3,
-    title: "To Do Goal List ",
-    date: "June 2024",
-    description:
-      "I developed a React Native To-Do Goal List application designed to help users organize and track their daily tasks and long-term goals",
-    image:
-      "https://anothercodingblog.com/wp-content/uploads/2023/05/screenshot-2023-05-14-at-1.22.38-pm.png",
-    tags: ["React Native","Expo"],
-    category: "android app",
-    github: "",
-    webapp: "",
-  },
-  {
-    id: 10,
-    title: "Number Guessing Game",
-    date: "July 2024",
-    description:
-      "I developed a Number Guessing Game using React Native, where players attempt to guess a randomly generated number within a specified range. The game features an engaging and interactive user interface, providing immediate feedback on guesses, tracking the number of attempts, and offering hints to guide players towards the correct answer. This project enhances logical thinking and problem-solving skills while providing an entertaining user experience.",
-    image:
-      "https://user-images.githubusercontent.com/20374208/82949642-a0409600-9fac-11ea-89e7-70aed7c6919e.png",
-    tags: ["React Native", "JavaScript", "Expo"],
-    category: "android app",
-    github: "",
-    webapp: "",
-  },
+  // {
+  //   id: 3,
+  //   title: "To Do Goal List ",
+  //   date: "June 2024",
+  //   description:
+  //     "I developed a React Native To-Do Goal List application designed to help users organize and track their daily tasks and long-term goals",
+  //   image:
+  //     "https://anothercodingblog.com/wp-content/uploads/2023/05/screenshot-2023-05-14-at-1.22.38-pm.png",
+  //   tags: ["React Native","Expo"],
+  //   category: "android app",
+  //   github: "",
+  //   webapp: "",
+  // },
+  // {
+  //   id: 10,
+  //   title: "Number Guessing Game",
+  //   date: "July 2024",
+  //   description:
+  //     "I developed a Number Guessing Game using React Native, where players attempt to guess a randomly generated number within a specified range. The game features an engaging and interactive user interface, providing immediate feedback on guesses, tracking the number of attempts, and offering hints to guide players towards the correct answer. This project enhances logical thinking and problem-solving skills while providing an entertaining user experience.",
+  //   image:
+  //     "https://user-images.githubusercontent.com/20374208/82949642-a0409600-9fac-11ea-89e7-70aed7c6919e.png",
+  //   tags: ["React Native", "JavaScript", "Expo"],
+  //   category: "android app",
+  //   github: "",
+  //   webapp: "",
+  // },
   
 
 
