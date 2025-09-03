@@ -207,7 +207,7 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://media.licdn.com/dms/image/v2/D4D0BAQHi1d0I38i9dw/company-logo_200_200/company-logo_200_200/0/1698064757705/algor_mind_logo?e=1731542400&v=beta&t=zWPGCutduMssMvnBt25gNnzON0MUx0GnV_9G9vNE9-I",
+    img: "https://logo.clearbit.com/coredge.io",
     role: "Software Engineer",
     company: "Coregde",
     Location: "Noida",
